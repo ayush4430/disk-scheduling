@@ -1,0 +1,137 @@
+/* Custom CSS for Disk Scheduling Simulator */
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* Card styling enhancements */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: 1px solid #dee2e6;
+}
+
+.card-header {
+    background-color: #495057;
+    color: white;
+    font-weight: 600;
+}
+
+/* Statistics card styling */
+.stat-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.stat-title {
+    color: #6c757d;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.stat-value {
+    color: #495057;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* Table styling */
+.table th {
+    border-top: none;
+}
+
+/* Button styling */
+.btn {
+    font-weight: 500;
+}
+
+/* Form styling */
+.form-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.form-text {
+    font-size: 0.8rem;
+}
+
+/* Head movement chart container */
+#headMovementChart {
+    max-height: 400px;
+}
+
+/* Alert styling */
+.alert {
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+/* Loading spinner */
+.spinner-border-sm {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* Disk request table row hover effect */
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.075);
+}
+
+/* Algorithm description styling */
+.algorithm-info {
+    background-color: #e9ecef;
+    border-left: 4px solid #007bff;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .stat-value {
+        font-size: 1.25rem;
+    }
+    
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+}
+
+/* Disk request status badges */
+.badge {
+    font-size: 0.75rem;
+}
+
+/* Custom colors for different disk scheduling algorithms */
+.fcfs-color { background-color: #28a745; }
+.sstf-color { background-color: #007bff; }
+.scan-color { background-color: #ffc107; color: #212529; }
+.c_scan-color { background-color: #dc3545; }
+.look-color { background-color: #17a2b8; }
+.c_look-color { background-color: #6f42c1; }
+
+/* Disk visualization specific styles */
+.disk-track {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    margin: 1px 0;
+}
+
+.disk-head {
+    background-color: #dc3545;
+    color: white;
+}
+
+.disk-request {
+    background-color: #007bff;
+    color: white;
+}
